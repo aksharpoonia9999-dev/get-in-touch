@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+}
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  max-width: 971px;
+  width: 100%;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 130px;
+  padding-top: 100px;
+}
+.col-6 {
+  width: 50%;
+}
+.contact {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 34.2px;
+}
+.email {
+  display: flex;
+  gap: 14.5px;
+  align-items: center;
+  margin-bottom: 49px;
+}
+
+.grey-line {
+  width: 368px;
+  height: 2px;
+  background-color: rgba(235, 234, 237, 1);
+}
+h1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.4px;
+  color: rgba(30, 14, 98, 1);
+}
+.para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: rgba(21, 20, 57, 0.4);
+  margin-top: 25px;
+}
+p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: rgba(30, 14, 98, 1);
+}
+.card-1 {
+  max-width: 370px;
+  width: 100%;
+  height: 308px;
+}
+.card-2 {
+  max-width: 370px;
+  width: 100%;
+  height: 335px;
+  margin-bottom: 100px;
+}
+h2 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: rgba(30, 14, 98, 1);
+  margin-top: 44.5px;
+}
+p {
+  cursor: pointer;
+}
+.location {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: rgba(21, 20, 57, 0.4);
+  margin-bottom: 36px;
+  margin-top: 11px;
+}
+iframe {
+  border-radius: 10px;
+}
+.box {
+  max-width: 470px;
+  width: 100%;
+  background-color: rgba(235, 234, 237, 0.3);
+  border-radius: 10px;
+  margin-top: 34.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 50px;
+  height: 550px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: rgba(30, 14, 98, 1);
+  margin-left: 50px;
+  padding-top: 48px;
+  text-transform: uppercase;
+}
+label {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: rgba(30, 14, 98, 1);
+}
+.button {
+  width: 90px;
+  height: 50px;
+  border: none;
+  border-radius: 100px;
+  background-color: rgba(37, 218, 197, 1);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 6px 0 0 10px;
+  color: white;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+.button:hover {
+  color: rgba(37, 218, 197, 1);
+  background-color: white;
+  border: 2px solid rgba(235, 234, 237, 1);
+}
+textarea {
+  max-width: 370px;
+  width: 100%;
+  height: 170px;
+  resize: none;
+  padding: 13px 0 0 19px;
+  border: 2px solid rgba(235, 234, 237, 1);
+  border-radius: 10px;
+  margin-top: 6px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+.emailbox {
+  max-width: 370px;
+  width: 100%;
+  height: 50px;
+  border: 2px solid rgba(235, 234, 237, 1);
+  border-radius: 100px;
+  padding: 12px 0 12px 24px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  margin-top: 6px;
+}
+.second-card {
+  max-width: 470px;
+  width: 100%;
+}
+.namebox {
+  max-width: 270px;
+  height: 50px;
+  border: 2px solid rgba(235, 234, 237, 1);
+  border-radius: 100px;
+  padding: 12px 0 12px 24px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  margin-top: 6px;
+}
+.form-end {
+  display: flex;
+  align-items: center;
+}
+.message-label {
+  padding-top: 37px;
+}
+.name-label {
+  padding-top: 35px;
+}
+
+@media (max-width: 1280px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 20px;
+  }
+  .parent-card {
+    margin: 0px;
+  }
+  .second-card {
+    width: 470px;
+  }
+}
+
+@media (max-width: 992px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .parent-card {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 25px;
+  }
+  .parent-card {
+    margin: 0px;
+  }
+  .second-card {
+    width: 470px;
+  }
+  svg {
+    height: 13px;
+    width: 13px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .card-2 {
+    margin-bottom: 50px;
+  }
+  h2 {
+    margin-top: 1px;
+  }
+}
+
+@media (max-width: 425px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 15px;
+  }
+  .grey-line {
+    width: 210px;
+  }
+  .second-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 305px;
+  }
+  .row {
+    display: block;
+  }
+  .contact {
+    gap: 10px;
+    margin-top: 17px;
+  }
+  .email {
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+  .parent-card {
+    margin: 0px;
+  }
+  iframe {
+    width: 305px;
+  }
+  h1 {
+    font-size: 24px;
+    line-height: normal;
+  }
+  p {
+    font-size: 14px;
+  }
+  .para {
+    margin-top: 10px;
+  }
+  .location {
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  .namebox {
+    max-width: 205px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .emailbox {
+    font-size: 16px;
+  }
+  textarea {
+    font-size: 16px;
+  }
+  .form-end {
+    flex-direction: column;
+  }
+  .button {
+    align-self: flex-end;
+  }
+  .button {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .button {
+    height: 40px;
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 23px;
+  }
+  .box {
+    margin-top: 16px;
+  }
+  .email {
+    margin-bottom: 25px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .contact {
+    margin-top: 10px;
+  }
+  .card-2 {
+    margin-bottom: 25px;
+  }
+  .box {
+    padding: 20px;
+    height: 500px;
+  }
+  .message-label {
+    padding-top: 20px;
+  }
+  .name-label {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .row {
+    padding: 20px;
+  }
+  .card-1 {
+    height: 210px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .email {
+    margin-bottom: 10px;
+  }
+  .para {
+    font-size: 13px;
+    width: 270px;
+  }
+  .location {
+    font-size: 14px;
+  }
+  p {
+    font-size: 10px;
+  }
+  svg {
+    height: 10px;
+    width: 10px;
+  }
+  h1 {
+    font-size: 19px;
+  }
+  .box {
+    height: 450px;
+  }
+  iframe {
+    width: 250px;
+    height: 200px;
+  }
+  .second-card {
+    width: 250px;
+  }
+  .card-2 {
+    margin-bottom: 10px;
+  }
+  .emailbox {
+    font-size: 14px;
+    height: 40px;
+  }
+  .namebox {
+    font-size: 14px;
+    height: 40px;
+  }
+  textarea {
+    font-size: 14px;
+    height: 110px;
+  }
+}
